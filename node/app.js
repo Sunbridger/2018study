@@ -20,7 +20,6 @@ app.get("/client",function (req,res,next) {
 
 app.listen(8888);
 console.log("8888端口node反向代理服务已启动");
-=======
 var http=require("http");
 var express=require("express");//引入express
 var app=new express();//或者直接express()
@@ -42,4 +41,3 @@ app.get("/client",function (req,res,next) {
 
 app.listen(8888);
 console.log("8888端口node反向代理服务已启动");
->>>>>>> f6fcf67fea700396c6542842a8e0d01022e116a0
